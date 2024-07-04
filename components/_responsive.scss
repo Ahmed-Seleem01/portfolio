@@ -30,8 +30,8 @@
     justify-items: center;
   }
 
-  .projects__data:nth-of-type(2) {
-    order: 1;
+  .projects__img {
+    display: none;
   }
 
   .clients__opinions {
@@ -42,6 +42,9 @@
     row-gap: 6rem;
   }
 
+  .contact__description {
+    margin-top: -12rem;
+  }
   .contact__formContent {
     order: -1;
   }

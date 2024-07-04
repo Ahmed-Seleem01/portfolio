@@ -18,15 +18,14 @@
 
   &__social {
     transition: var(--transition-timing);
-    .social__img{
-      filter: invert(var(--color-invert-value))
+    .social__img {
+      filter: invert(var(--color-invert-value));
     }
   }
 
   &__social:hover {
     transform: scale(1.2);
   }
-
 
   &__inputs {
     display: flex;
